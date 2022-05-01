@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100% ;
+}
+
+.search-icon{
+    width: 2rem;
+}
+
+#logoG{
+    width: 5rem;
+}
+.menu-items{
+    margin-left: 5rem;
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    height: -1.5rem;
+    font-size: .8rem;
+    margin-top: 5px;
+  }
+
+  #watch{
+      font-size: .8rem;
+      margin-top: 5px;
+  }
+
+  #watch2{
+      font-size: .8rem;
+      margin-top: 5px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+  }
+  .dropdown-content {
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    z-index: 1;
+    margin-top: 7px;
+    padding-bottom: 88px;
+    display: none;
+  }
+
+  .dropdown-content-2{
+    position: absolute;
+    background-color:black;
+    height: 232px;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 7px;
+    padding-bottom: 88px;
+    font-size: 12px;
+    margin-left: -54px;
+    line-height: 25px;
+    display: none;     
+  }
+ 
+  .dropdown-content-3{
+    position: absolute;
+    background-color:black;
+    height: 232px;
+    width: 981px;
+    z-index: 1;
+    margin-top: 7px;
+    padding-bottom: 88px;
+    font-size: 12px;
+    margin-left: -1115px;
+    line-height: 25px;
+    display: none;
+  }
+
+  .dropdown-content-3 a:hover {background-color: black;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content-3 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: black;}
+
+
+ /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: black;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: black;}
+
+
+.dropdown-content-2 a:hover {background-color: black;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content-2 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: black;}
+
+
+  .Sbar{
+    margin-left: 338px;
+    margin-top: 94px;
+    width: 307px;
+    height: 63px;
+    font-size: 25px;
+}
+.sbar-1{
+    margin-left: 338px;
+    margin-top: 94px;
+    width: 100px;
+    height: 63px;
+    font-size: 25px;
+}
+
+  #brand-list  li {
+      list-style: none;   
+  }
+  .brand-1{
+      line-height: 60px;
+  }
+  .brand-2{
+      line-height: 60px;
+  }
+  #brand-list a{
+    color: white;
+  }
+
+  .mw{
+    display: flex;
+    flex-direction: row;
+  }
+  .dropdown-content a {
+   
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: white;
+  }
+
+  
+
+.mynav{
+    height: 47px;
+}
+
+#menu-items{
+    margin-left: 2rem;
+}
+#f1{
+    margin-right: 1rem;
+    font-size: .8rem;
+    margin-top: 5px;
+}
+#f2{
+    margin-right: 1rem;
+    font-size: .8rem;    
+}
+
+#left-con a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.custom{
+    position: relative;
+}
+.custom::after{
+content: "";
+position: absolute;
+left: 7px;
+bottom: 0;
+width:0;
+height: 0.100rem;
+background: #f1f1f1;
+transition: 0.1s ease-in-out;
+}
+
+.custom:hover::after{
+    width: 80%
+}
+
+#search-icon{
+   width: 30px;  
+}
+.dropdown-content a img{
+    width: 176px;
+}
+#pic{
+    height: 200px;
+}
+
+.mens-button{
+   margin-left: 520px;
+   margin-top: 47px;
+   height: 45px;
+   width: 219px;
+   border: none;
+   font-weight: bolder;
+}
+
+.womens-button{
+    margin-left: 200px;
+    margin-top: 47px;
+    height: 45px;
+    width: 219px;
+    border: none;
+    font-weight: bolder;
+}
+#navbarSupportedContent{
+    text-align: start;
+}
+
+.greybar-1{
+    background-color: rgb(187, 185, 185);
+    font-weight: bold;
+    text-align: end;
+    padding-top: 3px;
+}
+
+.greybar-1 p{
+    padding-top: 2px;
+}
+.greybar-2{
+    background-color: rgb(187, 185, 185);
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.detail-btn{
+    background-color: rgb(187, 185, 185)!important;
+    border: none !important;
+    margin-top: -8px;
+}
+.dropclr{
+    background-color: rgb(187, 185, 185)!important;
+}
+.img-text{
+    width: 400px;
+    height: 226px;
+    color: black;
+    margin-left: -174px;
+}
+.pic-slide{
+    background-color: rgba(0, 0, 0, 0.57);
+}
+.line{
+    width: 179px;
+    height: 4px;
+    margin-left: 107px;
+}
+.newone{
+    width: 100%;
+    height: 100vh;
+}
+.text-2{
+   
+    padding-top: 23px;
+    font-size: 30px;
+    font-weight: 600;  
+}
+.pic-sub{
+width: 274px;
+background-color: black;
+text-align: center;
+margin-top: 5px;
+}
+.pic-sub a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.pic-1{
+    padding-top: 66px;
+}
+.pic-1 img{
+   width: 274px;  
+}
+.only-text{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 57px;
+    line-height: 4px;  
+}
+
+.four-watch{
+    padding-top: 79px;
+    padding-left: 117px;
+}
+.card-main{
+    padding-top: 43px;
+}
+.watch-1{
+    margin-top: -38px;
+}
+.overlay{
+    height: 291px;
+    background-color: rgba(255,65,54,.9);
+    position: relative;
+    bottom: 290px;  
+}
+
+.lead-1{
+    width: 200px;
+    height: 4px;
+    background-color: black;
+}
+.myimg-1{
+    width: 100%;
+    
+   
+}
+.moveable{
+    margin-top: 30px;
+}
+.overlay-1{
+    height: 291px;
+    background-color: rgba(255, 208, 54, 0.9);
+    position: relative;
+    bottom: 290px;  
+}
+.overlay-2{
+    height: 291px;
+    background-color: rgba(255,65,54,.9);
+    position: relative;
+    bottom: 290px;  
+}
+.card-2{
+    width: 9rem;
+    margin-left: 25px;
+}
+.logo-gs{
+   
+    
+}
+.casio{
+    margin-left: 603px; 
+}
+.hmm{
+    width: 7rem; height: 22rem;
+}
+.letsgo{
+    display: flex;
+    margin-top: -244px;
+    gap: 2px;
+}
+.high{
+ 
+  height: 683px;
+}
+.frst-img{
+    background-color: rgba(255,65,54,.9);
+    position: absolute;
+    bottom: 0;
+    padding-top: 1rem;
+    width: 100%;
+}
+.frst-img-1{
+    background-color: rgba(255, 208, 54, 0.9);
+    position: absolute;
+    bottom: 0;
+    padding-top: 1rem;
+}
+.frst-img-2{
+    background-color: rgba(255,65,54,.9);
+    position: absolute;
+    bottom: 0;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.rowhi{
+    height: 14rem;
+}
+.hel{
+    height: 50rem;
+}
+.logogsho img{
+    width: 6rem;
+}
+.for-dots ul{
+    list-style: none;
+}
+
+
+
+
+/* mediaquery******************* */
+
+
+@media screen and (max-width: 1281px){
+.hero{
+    display: flex;
+}
+}
+
+@media screen and (max-width: 1495px){
+   .pic-1{
+       padding-left: 41px;
+   }
+   .watch-1{
+       margin-top: -5px;
+   }
+   .watch-3{
+    margin-top: 15px;   
+   }
+   .card-2{
+    width: 9rem;
+    margin-left: 37px;
+   }
+   .watch-1-second{
+       margin-top: 29px;
+   }
+   .watch-3-second{
+       margin-top: 3px;
+   }
+  
+    .overlay{
+        height: 291px;
+        background-color: rgba(255,65,54,.9);
+        position: relative;
+        bottom: 0px;  
+    }
+     
+   
+}
+
+
+
+
+
+@media screen and (max-width: 987px) {
+    
+  .dropdown-content,.dropdown-content-2{
+      display: none !important;
+  }
+  .four-watch{
+      padding-left: 22px;
+  }
+  .pic-1{
+      padding-left: 22px;
+  }
+
+  #f1{
+      margin-left: 0px;
+  }
+  #f2{
+      margin-left: -17px;
+  }
+  .custom::after{
+      display: none;
+  }
+  .bor{
+      width: 100%;
+      height: 37px;
+      border-bottom: 1px solid #ffff;
+  }
+  .bor-1{
+      width: 100%;
+      border-bottom: 1px solid #ffff;
+      margin-left: -18px;
+  }
+  .bor-2{
+      width: 100%;
+      height: 12px;
+  }
+  .Sbar-1{
+      width: 100%;
+  }
+  .no-icon{
+      display: none;
+  }
+  .text-2{
+      font-weight: 400;
+  }
+  
+ 
+    
+}
+
+@media screen and (min-width: 987px){
+    .Sbar-1{
+        display: none;
+    }
+}
+@media screen and (max-width: 997px){
+    .pic-1 img{
+        width: 200px;  
+     } 
+     .pic-sub{
+        width: 200px;
+     }
+     .watch-4{
+         margin-top: 12px;
+     }
+    .overlay{
+        height: 200px;
+        background-color: rgba(255,65,54,.9);
+        position: relative;
+        bottom: 0px;
+    }
+   
+}
+@media screen and (max-width: 774px){
+    .pic-1{
+     padding-left: 105px;
+    }  
+    .text-2{
+     padding-left: 63px;
+    }
+    .pic-sub{
+     margin-bottom: 20px;
+    }
+    .overlay{
+        height: 200px;
+        background-color: rgba(255,65,54,.9);
+        position: relative;
+        bottom: 0px;
+    }
+
+
+}
+
+@media screen and (max-width: 446px){
+    .pic-1{
+        margin-left: 22px;
+    }
+    .four-watch{
+        padding-left: 23px;
+    }
+    .moveable-2{
+        padding-top: 20px;
+    }
+   
+}
+@media screen and (max-width: 821px){
+    .pic-1{
+        padding-left: 39px;
+    }
+    .four-watch{
+        padding-left: 16px;
+    }
+    .watch-1-second{
+        margin-top: 36px;
+    }
+    .watch-2-second{
+        margin-top: 17px;
+    }
+    .overlay{
+        height: 200px;
+        background-color: rgba(255,65,54,.9);
+        position: relative;
+        bottom: 0px;
+    }
+    .overlay-2{
+        height: 206px;
+        background-color: rgba(255,65,54,.9);
+        position: relative;
+        margin-top: 1px;
+        padding-top: 34px;
+        bottom: 0px; 
+    }
+    .overlay-1{
+        height: 291px;
+        background-color: rgba(255, 208, 54, 0.9);
+        position: relative;
+        bottom: 0px;  
+    }
+   
+   
+}
+
+@media screen and (max-width: 913px){
+    .overlay-2{
+        height: 206px;
+        background-color: rgba(255,65,54,.9);
+        position: relative;
+        margin-top: 1px;
+        padding-top: 34px;
+        bottom: 0px; 
+    }
+    .overlay-1{
+        height: 291px;
+        background-color: rgba(255, 208, 54, 0.9);
+        position: relative;
+        bottom: 0px;  
+    }
+}
+@media screen and (max-width: 376px){
+    .four-watch{
+        margin-left: 86px;
+    }
+    .pic-1{
+        padding-left: 73px;
+    }
+
+    .card-2{
+        width: 5rem;
+        height: 19rem;
+    }
+    
+    .moveable-2{
+        margin-top: -256px;
+    }
+    
+    .text-2{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+   
+
+}
+@media screen and (max-width: 416px){
+    .four-watch{
+        padding-left: 99px;
+    }
+    .pic-1{
+        margin-left: 110px;
+    }
+    .card-2{
+        width: 6rem;
+    }
+   
+   
+
+}
+@media screen and (max-width: 541px){
+    .pic-1{
+        padding-left: 76px;
+    }
+    .four-watch{
+        padding-left: 37px;
+    }
+    .overlay-1{
+        height: 220px;
+        background-color: rgba(255, 208, 54, 0.9);
+        position: relative;
+        bottom: 0px;  
+    }
+    .text-2{
+        font-size: 30px;
+    }
+
+}
+@media screen and (max-width: 281px){
+    .pic-1{
+        padding-left: 30px;
+    }
+    .four-watch{
+        padding-left: 49px;
+    }
+    .card-2{
+        width:5rem;
+        height: 19rem;
+        margin-left: 12px;
+    }
+    .watch-txt{
+        font-size: 100;
+    }
+    .text-2{
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .four-watch{
+        width: 20px;
+    }
+}
+@media screen and (max-width: 931px){
+    .lastone{
+        display: flex;
+        flex-direction: row;
+        
+    }
+}
+
+
